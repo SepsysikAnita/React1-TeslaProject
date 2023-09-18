@@ -1,6 +1,5 @@
-import React from 'react'
 
-const Header = () => {
+const Header = ({logo,menu}) => {
   return (
     <div className='header'>
         <div className="logo">
